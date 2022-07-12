@@ -1,0 +1,146 @@
+# Introdução
+
+<aside>
+🖥️ **Pensamento computacional**: processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+                                                                                 
+                                                                                                      (Aho, 2011; Lee, 2016)
+
+</aside>
+
+- Sistemático e eficiente
+- Formulação e resolução de problemas
+- Humanos e máquinas devem ser capazes de resolver
+- Se trata de uma habilidade generalista
+
+- Baseado em 4 pilares
+    - **Decomposição**: dividir um problema complexo em subproblemas
+    - **Reconhecimento de padrões**: identificar padrões ou tendências (similaridades e diferenças entre os problemas; padrão comportamental)
+    - **Abstração**: extrapolar o conceito do problema (particular/específico) para uma forma generalista; pego do mundo concreto e levo para o mundo das ideias
+    - **Design de algoritmos**: automatizar; define o passo a passo a solução do problema
+    
+- Se trata de um processo contínuo:
+    - definir uma solução
+    - testá-la
+    - aperfeiçoá-la
+    
+      >>>>    TESTE >>>>  ANÁLISE >>>>  REFINAMENTO >>>>
+    
+    <aside>
+    🖥️ No pensamento computacional é possível utilizao o melhor dos dois mundos, as habilidades humanas e os recursos computacionais. Os seres humanos são ótimos em detectar padrão, fazem isso naturalmente. **Habilidades humanas**: abstração (resolução de problemas) e automatização (expressão de solução). **Recursos computacionais**: análise (execução da solução e avaliação (refinamento))
+    
+    </aside>
+    
+    - Competências que surgem ao implementar o pensamento computacional:
+        - pensamento sistemático/analítico
+        - colaboração dentro da equipe (consegue estruturar melhor a resolução do problema/idéias)
+        - criatividade e design (atrelado a como consegue identificar os padrões/soluções, explicar melhor
+        - facilitador (apresentar a solução de forma mais resolutiva)
+
+******************
+
+Habilidades complementares
+- [ ]  **Raciocínio lógico** : forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema; algo que precisa ser treinado
+    
+        Classificação:
+    
+    - **Indução**: através de fenômeno observado, gerando leis e teorias; ciências experimentais
+    - **Dedução**: inverso da indução; através de leis e teorias deduz previsões e explicações para determinado fenômeno; ciências exatas
+    - **Abdução**:  a partir de uma conclusão, tira-se a premissa (ex: a grama está molhada, logo deve ter chovido). Supõe-se algo a partir de uma observação (não necessariamente a premissa é verdadeira); processo investigativo e diagnósticos.
+    
+    <aside>
+    🖥️ A partir de uma inferência, tem-se o pensamento por síntese (construção) e o pensamento analítico. Na inferência sintética, tem-se a abdução e indução. Na analítica, tem-se dedução.
+    
+    </aside>
+    
+- [ ]  **Aperfeiçoamento**: a partir de uma solução, determinar pontos de melhora e refinamento, pontuais ou global.
+    - [ ]  Ato de aperfeiçoar:
+        - [ ]  Melhor uso de recursos:
+        - encontrar soluções eficientes
+        - otimizar processos
+        - [ ]  Melhorar códigos e algoritmos:
+        - simplificar linhas de códigos
+        - funções bem definidas
+- estão atreladas ao tipo de pensamento que precisamos desenvolver para lidar com resolução de problemas
+
+**************
+
+# Pilares: Decomposição
+
+- [ ]  Primeiro passo da resolução de problemas dentros do conceito de pensamento computacional
+    
+    
+- “Dado um problema complexo, devemos quebrá-lo em problemas menores. Portanto, problemas mais fáceis e gerenciáveis.”
+    - Estratégia de decomposição:
+        - Análise: processo de quebrar e determinar partes menores e gerenciáveis
+        - Síntese: combinar os elementos recompondo o problema original (consiste em reunir elementos distintos em um único grande elemento; fundindo os elementos de maneira coerente; processo de reconstrução)
+    - A ordem de execução dessas tarefas menores pode ser:
+        - Sequencial:
+            - se houver dependência entre elas; executadas em “fila”
+        - Paralela: tarefas podem ser executadas concomitantemente
+        
+    
+    <aside>
+    📌 É importante que se treine maneiras distintas de decompor o mesmo problema, uma vez que um único problema pode ter diversas formas de solução
+    
+    </aside>
+    
+    - Como decompor?
+        - 
+            - [ ]  Identificar ou coletar dados que estão relacionados ao problema (segmenta em problemas menores)
+            - [ ]  Agrega os dados
+            - [ ]  Entrega funcionalidade (resolução do problema)
+
+*************
+
+# Pilares: Padrões
+
+- Reconhecimento de padrões envolve:
+    - modelo base ou referência
+    - estrutura invariante
+    - repetição
+    
+- Tal reconhecimento é feito através de similaridades e diferenças
+
+Por que determinar padrões?
+
+- para generalizar, com objetivo de obter resolução para problemas diferentes
+- os seres humanos reconhecem padrões pelo grau de similaridade, analisando entre grupos conhecidos e objeto desconhecido, utilizando também a subjetividade
+- o computador reconhece padrão por comparação, de forma objetiva. Se não tem tal informação, não consegue fazer comparação, não consegue determinar a qual categoria se refere aquele dado/objeto. Por isso, é necessário representar os atributos, para que a máquina consiga aprender o conceito associado ao objeto. Assim, irá armazenar esses dados para consultas posteriores. Utilizará regras de decisão, exemplo, um objeto “x” tem características de uma categoria “z”, então provavelmente ele faz parte de “z”
+- a abordadem de reconhecimento de padrões é feita através da extração de características e classificação de dados; utilizando diferentes métodos e aplicando de diferentes maneiras
+
+**************
+
+# Pilares: Abstração
+
+- [ ]  Abstrair: observar um ou mais elementos, avaliando características e propriedades em separado
+- [ ]  **Abstração**: processo intelectual de isolamento de um objeto da realidade, extrapolar para o mundo abstrato. Classificar os dados por suas características, detectar os pontos essenciais e generalizar em detrimento do detalhe
+- [ ]  Generalizar: tornar-se geral, mais amplo; na lógica, generalização é a *operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares*
+
+***************
+
+# Pilares: Algoritmos
+
+- [ ]  Um computador não opera sozinho. É necessário que sejam determinadas instruções para que ele possa executar. Precisa de instruções detalhadas, que serão utilizadas no processamento de dados, através dos programas.
+- [ ]  Computador: recebe, manipula, armazena e processa dados.
+- [ ]  Programas: são constituídos de instruções com o passo a passo do que o computador precisa realizar (step by step); o que precisa ser feito e qual a ordem da execução
+
+- Desenvolvimento do Programa (instruções detalhadas > algoritmo > programa)
+    - Análise: estudo e definição dos dados de entrada e saída
+    - Algoritmo: descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo
+    - Codificação: o algoritmo é codificado de acordo com a linguagem de programação escolhida
+    
+    <aside>
+    📌 Sequência de passos com objetivo definido
+    Execução de tarefas específicas
+    Conjunto de operações que resultam em uma sucessão finita de ações
+    
+    Instruções executada passo a passo para concluir a tarefa
+    
+    </aside>
+    
+    - Como construir um algoritmo?
+    1. Compreensão do problema através dos pontos mais importantes
+    2. Definição dos dados de entrada, através dos dados fornecidos e do cenário (inerentes ao contexto)
+    3. Definir o processamento dos dados, quais operações serão realizadas dentro do algoritmo
+    4. Definir os dados de saída, ou seja os resultados após o processamento
+    5. Utilizar um método de construção e refinamento do algoritmo e realizar testes e diagnósticos
