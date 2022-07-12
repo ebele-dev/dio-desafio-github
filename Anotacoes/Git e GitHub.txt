@@ -1,0 +1,15 @@
+# Git e GitHub
+
+- [ ]  Controle de versão
+- [ ]  Armazenamento em nuvem
+- [ ]  Trabalho em equipe
+- [ ]  Melhorar seu código
+- [ ]  Reconhecimento
+
+[Git - comandos básicos](https://www.notion.so/Git-comandos-b-sicos-b94d71882b2f438fbf33e17f05b8da3d)
+
+[Git - iniciando o Git e criando commit](https://www.notion.so/Git-iniciando-o-Git-e-criando-commit-99bada4e4c2b46d0914c844ca48386d8)
+
+********************
+
+

@@ -1,0 +1,102 @@
+# Introdução
+
+[](https://web.dio.me/course/introducao-a-programacao-e-pensamento-computacional/learning/f6007c8b-3963-4178-841c-d4c0c76c9c8a?back=/track/santander-code-girls&tab=undefined&moduleId=undefined)
+
+![Captura de tela 2022-07-07 130748.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1041b00b-9d8c-4c6f-8cc4-6ba52407495f/Captura_de_tela_2022-07-07_130748.png)
+
+![Captura de tela 2022-07-07 131126.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfe8757a-7a95-4db1-bbcf-86267c59eeba/Captura_de_tela_2022-07-07_131126.png)
+
+![Captura de tela 2022-07-07 131554.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d57a4dc-00f9-424e-8dac-60c1e41fa241/Captura_de_tela_2022-07-07_131554.png)
+
+![Captura de tela 2022-07-07 131621.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43270a53-eb8a-4790-bb10-5480aecd95c9/Captura_de_tela_2022-07-07_131621.png)
+
+- **Problemas computacionais:** objeto de discussão que possui instruções passo a passo que são mais facilmente resolvíveis em ambiente computacional; podem ser problemas de decisão, de busca, de otimização
+    - problemas de decisão: tem caráter lógico (responde com sim ou não), tem a ideia de pertencimento
+        - exemplo: dado um número n inteiro positivo, determine se n é primo
+- **Problemas de busca:** relacionamento binário, o obejtivo como o nome diz é de busca (x está em A?)
+- **Problemas de otimização**: tem o objetivo de maximizar ou minimizar uma função
+
+<aside>
+📌 **Linguagem de programação**: método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um **código fonte**; ou seja, é um conjunto de palavras e regras reservado para determinada linguagem; assim o código fonte será traduzido ou interpretado
+
+</aside>
+
+**************
+
+# Como o computador entende o programa?
+
+- um programa é um amontoado de palavras se não for possível que o computador entenda, para isso existe um **processo de tradução**
+    - dado uma linguagem de alto nível (programa fonte) que será enviada ao compilador (que executará análise do programa), será traduzida para uma linguagem de baixo nível (linguagem de máquina - programa objeto)
+
+- **Tradução**:
+    - geração do programa objeto
+    - execução do programa objeto
+    - execução mais rápida
+    
+    ![Captura de tela 2022-07-07 135359.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2dfa1dbb-76bf-401a-b6c2-c36714e298a5/Captura_de_tela_2022-07-07_135359.png)
+    
+- **Interpretação**: programa fonte executado diretamente
+    - maior flexibilidade
+    - mais fácil de programar
+    - torna o processo mais lento
+
+*************
+
+Características de um programa
+Diretrizes:
+legibilidade
+facilidade de leitura
+compreensão
+ortogonalidade (coerência nas instruções)
+definição adequada das estruturas
+redigibilidade - facilidade de escrita
+pode conflitar com a legibilidade
+ortogonalidade
+simplicidade da escrita
+suporte à abstração
+reuso do código
+expressividade
+confiabilidade - faz o que foi programado para fazer
+verificação de tipos
+trata exceções
+uso de ponteiros
+compatibilidade entre compiladores
+custo - análise de impacto, possui:
+treinamento
+codificação
+compilação
+execução
+infra-estrutura
+Outras características:
+atualizações
+uso para inteligência artificial atrelado a liguagem
+disponibilidade de ferramentas
+comunidade ativa
+adoção pelo mercado
+
+
+****************
+
+Análises de código
+
+Análise léxica
+primeira etapa do processo de compilação, conhecida como scanner ou leitura
+faz a leitura do programa fonte, caracter por caracter e os agrupa (em elementos chamados tokens)
+particionar > classificar > eliminar
+particionar: identifica os elementos e os agrupa em tokens; os elementos são identificadores, palavras reservadas, números, strings, todo conteúdo relevante para a codificação do programa
+eliminar: caracteres em branco, comentários
+Análise sintática (forma)
+sintaxe: componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura; define a corretude do programa
+o padrão - gramática, depende da linguagem de programação utilizada
+Análise semântica (significado)
+semântica: é o estudo do significado; incide sobre a relação entre significantes, como: palavras, frases, sinais e símbolos; é a lógica do programa
+erro de semântica: não faz o que é esperado
+
+
+*****************
+<aside>
+📌 Paradigma: forma de resolução de problemas com diretrizes e limitação específicas de cada paradigma utilizando linguagem de programação
+
+</aside>
+
+https://portugol-webstudio.cubos.io/ide

@@ -1,0 +1,128 @@
+Tipologia e variáveis
+Qual a função do computador?
+Processar informações, que são compostas por dados (objetos de manipulação e processamento) e instruções (normativas e diretrizes utilizadas pelo computador para executar determinadas ações que irão processar os dados)
+Tais dados são tratados e processados, e podem ser do tipo numéricos, caracteres ou lógicos
+Tipo - numéricos:
+Inteiros: positivos  e negativos sem casas decimais
+Reais: positivos  e negativos com casas decimais
+Tipo - lógico:
+booleano
+verdadeiro - 1
+falso - 0
+O que é uma variável?
+é uma estrutura que irá receber um tipo de dado; pode assumir qualquer um dos valores de um determinado conjunto de valores, contudo, está restrita a seu tipo
+“é uma gaveta dentro de um armário e irá identificar determinado dado e o seu tipo
+Nome da variável - regras:
+atribuição de uma mais caracteres (um nome que faça sentido)
+sem espaços em branco
+pode receber caracteres e números, mas precisa começar com uma letra
+não utilizar palavras reservadas como nome de variável
+Papéis de uma variável:
+ação: modifica o estado do algoritmo/programa
+controle
+
+****************
+
+# Instruções primitivas
+
+<aside>
+📌 Instruções: são linguagens de **palavras-chave** (vocabulário) de uma determinada linguagem de programação que tem por finalidade comandar um computador que irá **tratar os dados**
+
+</aside>
+
+- Instruções determinam as ações que serão executadas sobre os dados, geralmente são cálculos matemáticos e para isso serão utilizados operadores
+
+****************
+
+# Estruturas condicionais e operadores
+
+**Estrutura condicional:**
+
+dado o estado de uma pessoa ou coisa, existe uma condição para aquilo acontecer
+
+**Condicional:** que expressa uam condição ou suposição; contém ou implica uma suposição ou hipótese; há uma condição que se satisfeita executa determinada instrução
+
+
+- AND: é verdadeiro quando todas as condições são verdadeiras
+- OR: é falso quando todas as condições são falsas, então, se uma condição é V, o resultado já é V
+- NOT: é um operador de negação, ele inverte o resultado; se a condição é verdadeira, o resultado será falso; se a condição é falsa, o resultado será verdadeiro
+
+***************
+
+# Estruturas de repetição
+
+- para quando precisamos que um determinado trecho do programa/código seja executado mais de uma vez, a partir de certos parâmetros estabelecidos
+    - Laços = controle de fluxo = malhas de repetição = repetição = loop
+    - se tratando de estruturas de repetição, faz-se necessário ter **condições de parada** (número de repetições pré-fixada, condições a ser satisfeitas), para que não se entre em um looping infinito
+    
+- Vantagens:
+    - redução de linhas
+    - compreensão facilitada
+    - redução de erro
+    
+- [ ]  **Enquanto / while**
+    - Teste lógico é no INÍCIO
+    - número de repetições: indefinidas
+    
+    ![Captura de tela 2022-07-07 113223.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38759978-f84f-40ae-b1f2-0402444e2b01/Captura_de_tela_2022-07-07_113223.png)
+    
+- [ ]  **Repita**
+    - Teste lógico é no FINAL
+    - número de repetições: indefinidas
+    
+    ![Captura de tela 2022-07-07 113815.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b547a42a-6a76-414d-a21b-cb9345214bf4/Captura_de_tela_2022-07-07_113815.png)
+    
+
+- [ ]  Para…de…até / **For**
+    - Teste é no INÍCIO
+    - número de repetições: **definidas**
+    
+    ![Captura de tela 2022-07-07 114212.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db8df17f-0f9b-4269-a42c-725844de3293/Captura_de_tela_2022-07-07_114212.png)
+    
+- [ ]  é possível utilizar uma estrutura dentro da outra, mesclando-as
+
+![Captura de tela 2022-07-07 114424.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d9615f8-9e4e-4235-8fca-5728f24cf677/Captura_de_tela_2022-07-07_114424.png)
+
+**************
+
+# Vetores e matrizes
+
+- **Vetor** é uma sequência de tipos de dados; “é caracterizado por uma variável dimensionada com tamanho pré-fixado”, que irá receber n valores
+- **Matriz**: ****é uma tabela organizada em linhas e colunas no formato *m* x *n*, onde *m* representa o número de linhas (horizontal) e *n* o número de colunas (vertical); é uma coleção de vetores (variáveis), e para navegar por esses vetores, é necessário índices
+
+************
+
+# Funções
+
+- sinônimos: subalgoritmo, subprograma, bloco, método, sub-rotina
+- a partir do argumento que ela recebe, me retornará um valor
+
+<aside>
+📌 **Funções**: são blocos de instruções que realizam tarefas específicas; permite a modularização do programa e com isso o código se torna mais claro e conciso e permite a reutilização de instruções; são identificadas por nomes e parâmetros (assinatura da função)
+
+</aside>
+
+- a função altera o estado do programa; recebe os dados e retorna um resultado
+
+***************
+# Instruções de entrada/saída
+
+<aside>
+📌 **Instruções de entrada**: consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos, entre outros.
+
+</aside>
+
+<aside>
+📌 **Instruções de saída**: consiste na impressão dos dados do mundo abstrato, digital, por meio de ação de alguma interface; os formatos podem variar desde simples arquivos binários até complexas querys de banco de dados.
+
+</aside>
+
+- Existem dois tipos de saídas dentro de um algoritmo (programa):
+    - saída programada (incondicional ou condicional - aguarda o dispositivo)
+    - saída por interrrupção (definida pelos periféricos)
+
+- Casos para saída na programação:
+    - tarefa bem sucedida
+    - erro de sintaxe ou outro
+    - erros de programação
+    - problemas com a interface

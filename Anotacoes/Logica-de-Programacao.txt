@@ -1,0 +1,49 @@
+# Lógica
+
+- vem para solucionar problemas. O problema pode ser uma questão, proposta duvidosa, objeto de discussão e ter numerosas soluções
+- *“***Problema** *é uma questão que foge a uma determinada regra, ou* *melhor é um desvio de* *percurso, o qual impede de atingir um objetivo ocm eficiência e eficácia*”
+- “**Lógica**: *parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc.) e das operações intelectuais que visam à determinação do que é verdadeiro ou não.”*
+    - se trata de uma forma de raciocínio, com organização coesa, com ordenação que segue convenções e forma como desencadeiam acontecimentos
+    
+    <aside>
+    📌 “Lógica = organização e planejamento das instruções assertivas em um algoritmo, a fim de viabilizar a implantação de um programa”
+    
+    </aside>
+
+
+***********
+
+# Técnicas de lógica de programação
+
+# Técnica linear:
+
+- vem do modelo tradicional
+- não tem vínculo
+    - estrutura hierárquica
+    - programação de computadores
+- Modelos de desenvolvimento e resolução de problemas
+- muito associada à Matemática
+- exemplo: acordar > fazer café > tomar café
+
+<aside>
+📌 se trata de uma execução sequenciada de uma série de operações, com recursos limitados e uma única dimensão (sequência de ações ordenadas que possuem depedência entre si)
+
+</aside>
+
+# Técnica Estruturada:
+
+- organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato)
+- em relação ao processamento de dados, tem como objetivo a escrita de programas, entendimento, validação e manutenção
+- exemplo: acordar > fazer café e tomar café da manhã ou fazer suco e tomar café da manhã
+    - pode ter mais de uma opção, não é linear
+    
+
+# Técnica Modular:
+
+- partes independentes controladas por um conjunto de regras e cada parte (módulo), tem seu conjunto de regra específico
+- o modelo padrão é formado por dados de entrada, processo de transformação e dados de saída
+- tem como meta a simplificação, decomposição do problema e verificação por módulo (ao invés de verificar o código todo e fazer alterações que podem dar erro, faz-se as alterações dentro de um módulo específico, onde quero concentrar as alterações)
+- exemplo:
+    - módulo preparar para acordar (com suas regras definidas: abrir os olhos, sentar na cama, levantar, sair do quarto…)
+    - módulo preparar bebida (com regras e ações relacionadas a este módulo)
+    - módulo tomar café da manhã (com regras e ações relacionadas a este módulo)
